@@ -29,5 +29,4 @@ environments {
  firefox {
 	 driver = { new FirefoxDriver() }
  }
-
 }

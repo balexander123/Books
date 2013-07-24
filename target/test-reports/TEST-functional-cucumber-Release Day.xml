@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites>
-  <testsuite errors="0" failures="1" hostname="barry-alexanders-MacBook-Pro.local" id="0" name="Release Day" package="" tests="1" time="0.261" timestamp="2013-07-09T00:57:55">
-      <properties />
-
-      <testcase classname="grails.plugin.cucumber.CucumberTest" name="Has the correct iteration day number" time="0.227">
-          <failure message="Undefined Step: Given a release starts on 07/01/2013" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Given a release starts on 07/01/2013
+<testsuite errors="0" failures="1" hostname="barry-alexanders-MacBook-Pro.local" name="Release Day" tests="1" time="0.261" timestamp="2013-07-09T00:57:55">
+  <properties />
+  <testcase classname="grails.plugin.cucumber.CucumberTest" name="Has the correct iteration day number" time="0.227">
+    <failure message="Undefined Step: Given a release starts on 07/01/2013" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Given a release starts on 07/01/2013
 	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
 	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
 	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
@@ -17,8 +15,7 @@
 	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
 	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
 </failure>
-
-          <failure message="Undefined Step: And the release has 1 iteration" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: And the release has 1 iteration
+    <failure message="Undefined Step: And the release has 1 iteration" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: And the release has 1 iteration
 	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
 	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
 	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
@@ -31,8 +28,7 @@
 	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
 	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
 </failure>
-
-          <failure message="Undefined Step: And the iteration in 10 business days long" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: And the iteration in 10 business days long
+    <failure message="Undefined Step: And the iteration in 10 business days long" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: And the iteration in 10 business days long
 	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
 	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
 	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
@@ -45,8 +41,7 @@
 	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
 	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
 </failure>
-
-          <failure message="Undefined Step: When the release Day for 07/02/2013 is requested" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: When the release Day for 07/02/2013 is requested
+    <failure message="Undefined Step: When the release Day for 07/02/2013 is requested" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: When the release Day for 07/02/2013 is requested
 	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
 	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
 	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
@@ -59,8 +54,7 @@
 	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
 	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
 </failure>
-
-          <failure message="Undefined Step: Then the iteration day number returned is 2" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Then the iteration day number returned is 2
+    <failure message="Undefined Step: Then the iteration day number returned is 2" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Then the iteration day number returned is 2
 	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
 	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
 	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
@@ -73,10 +67,8 @@
 	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
 	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
 </failure>
-
-      </testcase>
-
-      <system-out><![CDATA[Feature: Release Day
+  </testcase>
+  <system-out><![CDATA[Feature: Release Day
 
 --Output from Has the correct iteration day number--
   Scenario: Has the correct iteration day number     # releaseday.feature:3
@@ -86,9 +78,6 @@
     When the release Day for 07/02/2013 is requested
     Then the iteration day number returned is 2
 ]]></system-out>
-
-      <system-err><![CDATA[
+  <system-err><![CDATA[
 --Output from Has the correct iteration day number--]]></system-err>
-
-  </testsuite>
-</testsuites>
+</testsuite>
